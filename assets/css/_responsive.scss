@@ -1,0 +1,124 @@
+// @media (max-width: 991.9px) and (orientation: landscape){
+//     .navbar-nav{
+//         overflow: scroll;
+//         height: 100vh;
+//     }
+// }
+
+@media (max-width: 991.9px){
+
+    #navbarSupportedContent{
+        transition: all 0.5s ease-in-out;
+        
+        .navbar-nav{
+            width: 50%;
+        }
+    }
+    
+    footer{
+        h4::before{
+            left: 5% !important;
+        }
+    }
+    .other-events, .other-activities{
+        .row{
+            width: 75%;
+            margin: 0 auto;
+        }
+    }
+    .what-we-do-content {
+        background-image: linear-gradient(top ,rgba(161, 148, 148, 0.15) 70%, white 70% ) !important;
+        padding-bottom: 2rem !important;
+        padding-top: 3rem !important;
+        img{
+            position: static !important;
+            display: block;
+            margin: 3rem auto;
+        }
+    }
+    .organization-head {
+        .organization-head-txt {
+            width: 100% !important;
+            margin-bottom: 3rem;
+        }
+    }
+    .services-content{
+        display: flex;
+        .services-bg{
+            width: 80%;
+        }
+    }
+    .partner{
+        .partner-bg{
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+            .partner-info{
+                padding: 3rem 1rem !important;
+                h3, p{
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+    .activities-activities, .event-event, .gallery-gallery{
+        width: 50% !important;
+        margin: 0 auto !important;
+    }
+}
+
+@media (max-width: 767.9px){
+    .send-msg, .other-events, .other-activities {
+      
+        h2::before {
+          margin-left: -23%;
+          width: 20%;
+        }
+        h2::after {
+          margin-left: 25px;
+          width: 20%;
+        }
+    }
+    .other-events, .other-activities{
+        .row{
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+    .activities-activities, .event-event, .gallery-gallery{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 575.9px){
+    nav{
+        .brand-txt{
+            font-size: 12px !important;
+        }
+    }
+    .contact{
+        display: block !important;
+        text-align: center !important;
+        margin-bottom: 1rem !important;
+    }
+    .partners, .partner-category-1, .partner-category-2{
+        .partners-info{
+            width: 50% !important;
+            margin: 0 auto;
+        }
+    }
+    .event-info{
+        display: flex;
+    }
+    .organization-head {
+        img{
+            width: 200px !important;
+            height: 200px !important;
+        }
+        .organization-head-info{
+            padding: 2rem 0 3rem 0;
+        }
+    }
+
+}
